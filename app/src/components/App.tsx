@@ -1,9 +1,11 @@
+// Libraries
 import React from 'react';
+
+// Stylesheets
 import '../stylesheets/App.css';
 
-import SelectorContainer from './SelectorContainer';
-
-import { selectors } from '../data/selectorsData';
+// Components
+import Storybook from './Storybook'
 
 /**
  * The top-level container for the app.
@@ -11,8 +13,6 @@ import { selectors } from '../data/selectorsData';
 function App() {
   return (
     <div className="App">
-      <h1>What would you like to do?</h1>
-      <SelectorContainer selectors={selectors}/>
     </div>
   );
 }
